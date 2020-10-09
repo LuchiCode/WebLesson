@@ -1,0 +1,48 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', monospace;
+}   
+
+/* NAVIGATION  */
+#id{
+   display: flex;
+
+}
+
+.logo{
+    margin: 20px;
+    /* padding: 20px; */
+    border: 1px solid gold;
+}
+.logo a{
+    text-decoration:none; 
+}
+ul{
+    right: 0;
+    position: absolute;
+    margin:20px;
+}
+ul li a{
+    text-decoration: none;
+}
+
+li{
+    display: inline;
+    border: 1px solid red;
+    /* padding: 20px; */
+    margin: 20px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-items: space-between;
+    border: 1px solid black;
+    /* background-color: aqua; */
+    width: 100%;
+}
+
+
+/* Tutorial Guys  */
+/* //Traversy, ted ed, Academia, Bedimcode, net ninja */
